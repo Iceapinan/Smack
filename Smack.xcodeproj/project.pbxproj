@@ -20,6 +20,7 @@
 		F6F55BF41F34CAEA00A72F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F55BF21F34CAEA00A72F97 /* Main.storyboard */; };
 		F6F55BF61F34CAEA00A72F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F55BF51F34CAEA00A72F97 /* Assets.xcassets */; };
 		F6F55BF91F34CAEA00A72F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F55BF71F34CAEA00A72F97 /* LaunchScreen.storyboard */; };
+		F6F801F91F3F57C800AB4871 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F801F81F3F57C800AB4871 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		F6F55BF51F34CAEA00A72F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F55BF81F34CAEA00A72F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F55BFA1F34CAEA00A72F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F801F81F3F57C800AB4871 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				F67D5F4B1F381FF30012D6BF /* GradientView.swift */,
+				F6F801F81F3F57C800AB4871 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C509691F34D46F0044E572 /* ChatVC.swift in Sources */,
+				F6F801F91F3F57C800AB4871 /* RoundedButton.swift in Sources */,
 				F6C5096B1F34D4910044E572 /* ChannelVC.swift in Sources */,
 				F60F01F11F3EFA3A0017BA43 /* CreateAccountVC.swift in Sources */,
 				F60F01F41F3F26AC0017BA43 /* AuthService.swift in Sources */,
