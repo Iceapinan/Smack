@@ -16,6 +16,9 @@
 		F6C509691F34D46F0044E572 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C509681F34D46F0044E572 /* ChatVC.swift */; };
 		F6C5096B1F34D4910044E572 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5096A1F34D4910044E572 /* ChannelVC.swift */; };
 		F6C5096C1F34D92F0044E572 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C509641F34D1020044E572 /* SWRevealViewController.m */; };
+		F6D999DA1F401D4F00AC8E6D /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D999D91F401D4F00AC8E6D /* UserDataService.swift */; };
+		F6D999DC1F402F0700AC8E6D /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D999DB1F402F0700AC8E6D /* AvatarPickerVC.swift */; };
+		F6D999DE1F40326800AC8E6D /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D999DD1F40326800AC8E6D /* AvatarCell.swift */; };
 		F6F55BEF1F34CAEA00A72F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F55BEE1F34CAEA00A72F97 /* AppDelegate.swift */; };
 		F6F55BF41F34CAEA00A72F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F55BF21F34CAEA00A72F97 /* Main.storyboard */; };
 		F6F55BF61F34CAEA00A72F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F55BF51F34CAEA00A72F97 /* Assets.xcassets */; };
@@ -37,6 +40,9 @@
 		F6C509641F34D1020044E572 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		F6C509681F34D46F0044E572 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		F6C5096A1F34D4910044E572 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		F6D999D91F401D4F00AC8E6D /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		F6D999DB1F402F0700AC8E6D /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		F6D999DD1F40326800AC8E6D /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		F6F55BEB1F34CAEA00A72F97 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F55BEE1F34CAEA00A72F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6F55BF31F34CAEA00A72F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				F60F01F31F3F26AC0017BA43 /* AuthService.swift */,
+				F6D999D91F401D4F00AC8E6D /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 			children = (
 				F67D5F4B1F381FF30012D6BF /* GradientView.swift */,
 				F6F801F81F3F57C800AB4871 /* RoundedButton.swift */,
+				F6D999DD1F40326800AC8E6D /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 				F6C5096A1F34D4910044E572 /* ChannelVC.swift */,
 				F666276E1F3ED81900190102 /* LoginVC.swift */,
 				F60F01F01F3EFA3A0017BA43 /* CreateAccountVC.swift */,
+				F6D999DB1F402F0700AC8E6D /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,12 +297,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6C509691F34D46F0044E572 /* ChatVC.swift in Sources */,
+				F6D999DC1F402F0700AC8E6D /* AvatarPickerVC.swift in Sources */,
 				F6F801F91F3F57C800AB4871 /* RoundedButton.swift in Sources */,
 				F6C5096B1F34D4910044E572 /* ChannelVC.swift in Sources */,
+				F6D999DA1F401D4F00AC8E6D /* UserDataService.swift in Sources */,
 				F60F01F11F3EFA3A0017BA43 /* CreateAccountVC.swift in Sources */,
 				F60F01F41F3F26AC0017BA43 /* AuthService.swift in Sources */,
 				F666276F1F3ED81900190102 /* LoginVC.swift in Sources */,
 				F67D5F4C1F381FF30012D6BF /* GradientView.swift in Sources */,
+				F6D999DE1F40326800AC8E6D /* AvatarCell.swift in Sources */,
 				F6F55BEF1F34CAEA00A72F97 /* AppDelegate.swift in Sources */,
 				F6C5096C1F34D92F0044E572 /* SWRevealViewController.m in Sources */,
 				F666276B1F3ED18400190102 /* Constants.swift in Sources */,
